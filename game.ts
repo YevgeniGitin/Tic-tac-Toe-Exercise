@@ -69,7 +69,7 @@ import {GameStatus} from "./gamestatus";
                 this.summary[this.movesnum]=`${this.player2.name} (${row},${col})`;
                 this.movesnum++;
                 this.turn="player1";
-                if(this.checkwon(row,col,this.player1.symbol)){
+                if(this.checkwon(row,col,this.player2.symbol)){
                     this.status=1;
                     this.player2.winflag=true;
                 }    
